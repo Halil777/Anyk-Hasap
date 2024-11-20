@@ -1,0 +1,101 @@
+.leftContainer {
+    width: 50%;
+    min-height: 70vh;
+}
+.css-1x51dt5-MuiInputBase-input-MuiInput-input::after {
+    font-family: 'regularFont';
+}
+.conLeftItems{
+    color: #000;
+    font-size: 16px;
+    font-family: 'regularFont';
+}
+
+.mapContainer{
+    width: 100%;
+    height: 45vh;
+    margin-top: 50px;
+}
+.map{
+    width: 96%;
+    height: 10%;
+}
+
+
+.rightContainer {
+    width: 50%;
+    margin-left: 7%;
+    min-height: 70vh;
+    margin-top: 77px;
+}
+input{
+    border: none;
+    border-bottom: 1px solid #000;
+    width: 98%;
+}
+textarea{
+    border: none;
+    border-bottom: 1px solid #000;
+}
+.sendButton {
+    margin-top: 90px;
+}
+.sendButton span {
+    margin-left: 10px;
+    height: 40px;
+}
+.sendButton button{
+    width: 170px;
+    background-color: white;
+    border: 1px solid #AA323C;
+    height: 35px;
+    font-family: 'regularFont';
+    color: #000;
+}
+
+.sendMessage button{
+    text-transform: capitalize;
+    color: #000;
+    font-family: 'regularFont';
+    border: 1px solid #AA323C;
+}
+.sendMessage button:hover{
+    border: 1px solid #AA323C;
+}
+
+ .textFielddd__label {
+     color: #000 !important;
+     font-family: 'regularFont';
+ }
+ .textFielddd__label::after{
+     font-family: 'regularFont';
+ }
+
+
+.inputText input:focus{
+    color: #000;
+    font-family: 'regularFont';
+    /* border-bottom: 1px solid #000; */
+    border-bottom-color: #000;
+}
+
+@media (max-width: 768px) {
+    .sendMessage {
+        margin-bottom: 30px;
+    }
+    /* .contactMedia {
+        margin-top: -17%;
+    } */
+    .conLeftItems {
+        font-size: 10px;
+    }
+    .contactMediaa{
+        margin-top: -10px;
+        margin-bottom: -70px;
+    }
+    
+    .smallLink {
+        font-size: 10px;
+    }
+   
+}

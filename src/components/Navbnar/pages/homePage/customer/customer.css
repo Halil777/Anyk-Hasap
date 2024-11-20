@@ -1,0 +1,59 @@
+/* .rectangle {
+    background-color: #fff;
+    padding:12px;
+  }
+  .triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 20px solid #fff;
+}
+
+
+.slick-dots li button:before{
+    font-size: 10px;
+    color:black;
+    opacity: 1;
+
+}
+.slick-dots li.slick-active button:before {
+    color: transparent;
+    font-size: 10px;
+    border: 2px solid black;
+    border-radius: 50%;
+    height: 12px;
+    width: 12px;
+    margin-top: 2px;
+}
+
+.items{
+    padding: 2%;
+}
+.slick-prev{
+    display: none;
+}
+.slick-arrow {
+    visibility: hidden;
+}
+
+.customerUserName{
+    color: #000;
+    font-family: "regularFont";
+    font-size: 14px;
+}
+
+.customerReview{
+    background-color: #F8F8F8;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+p {
+    text-align: justify;
+    padding: 12px;
+}
+.customerDiv{
+    display: flex;
+}
+
+ */

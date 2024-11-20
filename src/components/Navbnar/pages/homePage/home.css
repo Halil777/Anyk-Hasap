@@ -1,0 +1,257 @@
+.homeFirstContianer{
+    background-image: url(../../../../../public/img/leather.jpg );
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: auto ;
+    border: none;
+    outline: none;
+    background-color: black;
+}
+.firstContaiiner{
+    background-image: url(../../../../../public/img/leather.jpg );
+    background-repeat: repeat;
+    border: none;
+    outline: none;
+}
+.secondContaiiner{
+background-color: rgba(255, 255, 255, 0.808);
+}
+
+.transparent{
+    background: linear-gradient(89.98deg, rgba(13, 12, 15, 0.842) -3.37%, rgba(42, 35, 86, 0) 103.15%);
+    backdrop-filter: blur(1px);
+    height: auto;
+    padding-bottom: 100px;
+}
+.newOurServices label {
+    font-family: 'regularFont';
+    letter-spacing: 1.5px;
+    font-size: 1.5vw;
+}
+
+
+.homePageLabel{
+    width: 50%;
+    padding-top: 100px;
+}
+
+.lableName{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 2vw;
+    font-family: 'semiBold';
+   
+}
+.homePageLabel p {
+    font-size: 1vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-left: -13px;
+    line-height: 2;
+    margin-top: 7%;
+    font-family: 'regularFont';
+}
+.homePageLabel label {
+    line-height: 2;
+}
+.learnMoreButton  {
+    width: 100%;
+    margin-top: 10%;
+}
+.learnMoreButton button {
+    color: rgb(255, 255, 255);
+    padding-top: 1.5%;
+    cursor: pointer;
+    padding-bottom: 1.5%;
+    padding-left: 5%;
+    border: 1px solid #AA323C;
+    padding-right: 5%;
+    font-size: 1vw;
+    background: transparent;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    font-family: 'regularFont';
+}
+
+
+.learnMoreButton img {
+    padding-left: 10px;
+}
+.homeSecondContainer{
+    padding-top: 60px;
+}
+.ourServ{
+    display: flex;
+    justify-content: center;
+}
+.ourServ label {
+    font-family: 'semiBold';
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+.aboutServ{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 70px;
+    padding-top: 40px;
+}
+.homeInfoContainer{
+    padding-top: 30px;
+}
+.infoItems{
+    display: flex;
+    justify-content: space-around;
+}
+
+.aboutServ {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.aboutServ p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'regularFont';
+}
+.infoTitle{
+    padding-top: 15px;
+}
+.infoTitle label {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'regularFont';
+}
+.infoTitle p {
+    padding-top: 7px;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: 'lightFont';
+    text-align: left;
+}
+.aboutUsPhoto {
+    background-image: url(../../../../../public/img/aboutUs.png);
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: auto;
+     margin-top: 35px;
+     min-height: 500px;
+     margin-bottom: 40px;
+}
+#secondLearnButton{
+    padding-bottom: 40px;
+}
+.homeAboutUsContainer {
+    width: 50%;
+    padding-top: 30px;
+}
+/* .homeAboutUsContainer p {
+    text-align: left;
+    font-size: 50px;
+} */
+.underLineE{
+    width: 140px;
+    background-color: #AA323C;
+    height: 2px;
+}
+.homeAboutUsContainer label {
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 3vw;
+    font-family: 'semiBold';
+}
+.homeAboutUsContainer p {
+    color: white;
+    font-size: 0.5vw;
+    font-family: 'regularFont';
+    line-height: 1.3;
+    text-align: justify;
+    font-weight: 100;
+}
+.secondLearnButton {
+    padding-bottom: 50px;
+}
+.underLine{
+    width: 45%;
+    height: 2px;
+    background-color: #AA323C;
+
+}
+
+.homeAboutUsContainer2{
+    display: wrap;
+}
+
+@media screen and (max-width: 768px){
+    .homePageLabel{
+        width:100%;
+    }
+    /* .homeFirstContianer {
+        background-image: url(../../../../../public/img/leather.jpg );
+        background-size:cover;
+    } */
+    .newOurServices label {
+        font-size: 17px;
+    }
+    .lableName{
+        font-size: 30px;
+    }
+    .aboutServ{
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    .ourServ label {
+        font-size: 30px;
+    }
+    .homePageLabel p{
+        font-size: 12px;
+    }
+    .learnMoreButton button{
+        font-size: 8px;
+        display: block;
+        align-items: baseline;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .homeAboutUsContainer label {
+        font-size: 30px;
+    }
+    .homeAboutUsContainer p {
+        font-size: 16px;
+    }
+
+    .infoItems{
+        text-align: center;
+    }
+    .homeAboutUsContainer{
+        width: 100%;
+    }
+    .aboutUsPhoto{
+        background-size: cover;
+        background-position: 100%;
+        background-repeat: no-repeat;
+       
+    }
+    
+    .underLineE{
+        width: 110px;
+    }
+    .underLine{
+        width: 50%;
+    }
+    .mediaTransparent{
+        background-color: rgba(0, 0, 0, 0.548);
+        height: auto;
+        min-height: 500px;
+    }
+    .ourServMedia {
+        margin-bottom: 0%;
+    }
+}
